@@ -1,0 +1,26 @@
+{
+  "name": "ui-perf-metrics-server",
+  "version": "1.0.2",
+  "description": "Server that listen to performance metrics, processes them and send them to Elastic.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@bitbucket.escm.co:7999/hack/ui-perf-metrics-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "semaphore": "^1.1.0",
+    "useragent": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  }
+}
